@@ -1,0 +1,11 @@
+.nav {
+  background: rgba(255, 0, 0, .5);
+}
+
+  .nav__left {
+    border: 1px solid green;
+  }
+
+  .nav--orange {
+    color: red;
+  }
