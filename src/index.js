@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './compiled/style.css';
-import { Router, Route, Link } from 'react-router';
 import rootReducer from './reducers'
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';

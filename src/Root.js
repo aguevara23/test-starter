@@ -1,8 +1,6 @@
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './compiled/style.css';
-import { Router, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import rootReducer from './reducers'
 import { Provider } from 'react-redux';

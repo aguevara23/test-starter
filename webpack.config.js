@@ -2,7 +2,7 @@ var path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-  entry: ['./src/index.js', 'react-hot-loader/patch']
+  entry: ['./src/index.js', 'react-hot-loader/patch'],
   output: {
     path: path.resolve(__dirname, "./src/dist"),
     filename: 'bundle.js'
@@ -33,7 +33,7 @@ module.exports = {
       {
         loader: 'babel-loader',
         query: {
-          presets: ['es2015', {"modules": false}]
+          presets: ['react', ['es2015', {"modules": false}]]
         },
         test: /\.js$/,
         exclude: /node_modules/

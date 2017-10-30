@@ -3,7 +3,6 @@ import {Switch, Route} from 'react-router-dom';
 import Home from './Home';
 import Test1 from './Test1';
 import Test2 from './Test2';
-import Navbar from './Navbar'
 
 
 const Main = () => (
